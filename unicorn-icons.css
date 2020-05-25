@@ -1,0 +1,2346 @@
+/* #####################################################################
+ Icon Styles
+
+ Font generated from SVG files with https://icomoon.io/app. To add to or
+ modify this font, import the '../fonts/devine-colors-icons.dev.svg' file
+ via the import button in the app. Download the updated font, replace the
+ font files, and update the list of `content: '\e###';` rules below with
+ those from the generated CSS file.
+
+ Last Modified: 08/29/2017;
+
+
+ Settings:
+   Font Name:             devine color icons
+   CSS Class Prefix:      icn_
+   Enable Ligatures:      false (breaks IE <= 9)
+   Base64 Encode & Embed: false (breaks IE <= 7, embeds font twice)
+   Include Metadata:      false (bloat)
+###################################################################### */
+
+@font-face {
+    font-family: '3MThemeIconFont';
+    src: url("");
+    src: url("3MThemeIconFont.eot#iefixi2w8ja") format('embedded-opentype'), url("3MThemeIconFont.woff") format('woff'), url("3MThemeIconFont.ttf") format('truetype'), url("3MThemeIconFont.svg#3MThemeIconFont") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.MMM--icn {
+    display: inline-block;
+    *display: inline;
+    /* ie7 support for inline-block */
+    *zoom: 1;
+    /* ie7 support for inline-block */
+    speak: none;
+    font-family: '3MThemeIconFont';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* This class hides content in an accessible way this is still visible to screen
+readers. While similar to the .isVisuallyHidden utility class, this class is
+specific for use with the .icn object */
+
+.MMM--icn-text {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    *overflow: visible;
+    /* IE7 */
+    *zoom: 1;
+    /* IE7 */
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.MMM--icn span {
+    /* IE7 */
+    margin: 0 .25em;
+    margin: 0;
+    font-family: '3MThemeIconFont';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+.MMM--icn_localization span,
+.MMM--icn_localization:before {
+    content: '\e049';
+    font-size: 36px;
+}
+
+.MMM--icn_arrowUp:before {
+    content: '\e02b';
+}
+
+.MMM--icn_arrowDown:before {
+    content: '\e028';
+}
+
+.rtl .MMM--icn_arrowDown:before {
+    padding-left: 0;
+}
+
+/* When the icn is in an active button, we want it to point up */
+
+.MMM--navItemList-hasSubNav_isOpen .MMM--icn_arrowDown:before {
+    content: '\e02b';
+}
+
+.MMM--filterList .MMM--isActive .MMM--icn_arrowDown:before,
+.MMM--accordionDrawer_isOpen .MMM--icn_arrowDown:before {
+    content: '\e02b';
+    color: #ff0000;
+}
+
+/* For the SNAPS Navigation, the new theme uses plus and minus instead of arrow up and down */
+
+.MMM--filterList .MMM--isActive .MMM--icn_plus:before,
+.MMM--modelFilter-hd .MMM--isActive .MMM--icn_plus:before {
+    content: '\e04f';
+}
+
+.MMM--icn_arrowLeft:before {
+    content: "\e029";
+}
+
+.MMM--icn_arrowRight:before {
+    content: "\e02a";
+}
+
+@media screen and (max-width: 767px) {
+    .MMM--btn_filter_isActive .MMM--icn_arrowDown:before {
+        content: '\e02b';
+        color: #ff0000;
+    }
+}
+
+.MMM--filterDrawer_isOpen .MMM--icn_arrowDown:before {
+    content: '\e02b';
+    color: #ff0000;
+}
+
+.MMM--icn_home:before {
+    content: '\e046';
+}
+
+.MMM--icn_profile span,
+.MMM--icn_profile:before {
+    content: '\e07f';
+    font-size: 26px;
+}
+
+.MMM--icn_profile2 span,
+.MMM--icn_profile2:before {
+    content: "\e059";
+    font-size: 26px;
+}
+
+.MMM--icn_cart span,
+.MMM--icn_cart:before {
+    content: '\e039';
+    font-size: 23px;
+}
+
+.MMM--icn_menu span,
+.MMM--icn_menu:before {
+    content: '\e04e';
+    font-size: 17px;
+}
+
+.MMM--icn_search span,
+.MMM--icn_search:before {
+    content: "\e05b";
+}
+
+.MMM--icn_basket:before {
+    content: "\e02d";
+}
+
+.MMM--icn_delete span,
+.MMM--icn_delete:before {
+    content: "\e911";
+}
+
+.MMM--icn_email span,
+.MMM--icn_email:before {
+    content: "\e04d";
+}
+
+.MMM--icn_gallery span,
+.MMM--icn_gallery:before {
+    content: "\e042";
+}
+
+.MMM--icn_filter span,
+.MMM--icn_filter:before {
+    content: "\e040";
+}
+
+.MMM--icn_dot:before {
+    content: "\e030";
+}
+
+.MMM--icn_tooltip {
+    margin-left: .5em;
+    position: relative;
+    cursor: pointer;
+}
+
+.rtl .MMM--icn_tooltip {
+    margin-right: .5em;
+    margin-left: 0;
+}
+
+.MMM--icn_tooltip span,
+.MMM--icn_tooltip:before {
+    content: '\e05e';
+}
+
+.MMM--icn_checkmark span,
+.MMM--icn_checkmark:before {
+    content: "\e902";
+}
+
+.MMM--icn_information span,
+.MMM--icn_information:before {
+    content: '\e906';
+}
+
+.MMM--icn_window span,
+.MMM--icn_window:before {
+    content: '\e060';
+}
+
+.MMM--icn_grid span,
+.MMM--icn_grid:before {
+    content: '\e043';
+}
+
+.MMM--icn_close span,
+.MMM--icn_close:before {
+    content: '\e911';
+}
+
+.MMM--icn_flag span,
+.MMM--icn_flag:before {
+    content: '\e041';
+}
+
+.MMM--icn_previous span,
+.MMM--icn_previous:before {
+    content: '\e057';
+}
+
+.rtl .MMM--icn_previous span,
+.rtl .MMM--icn_previous:before {
+    content: '\e051';
+}
+
+.MMM--icn_next span,
+.MMM--icn_next:before {
+    content: '\e051';
+}
+
+.rtl .MMM--icn_next span,
+.rtl .MMM--icn_next:before {
+    content: '\e057';
+}
+
+.MMM--icn_plus span,
+.MMM--icn_plus:before {
+    content: '\e055';
+    font-size: .7em;
+    vertical-align: 15%;
+}
+
+.MMM--icn_minus span,
+.MMM--icn_minus:before {
+    content: '\e04f';
+}
+
+.MMM--icn_banner span,
+.MMM--icn_banner:before {
+    content: '\e02c';
+}
+
+.MMM--icn_chat span,
+.MMM--icn_chat:before {
+    content: '\e03a';
+}
+
+.MMM--icn_share span,
+.MMM--icn_share:before {
+    content: '\e05c';
+    padding-right: 3px;
+}
+
+.rtl .MMM--icn_share span,
+.rtl .MMM--icn_share:before {
+    content: '\e05c';
+    padding-right: 0;
+    padding-left: 3px;
+}
+
+.MMM--icn_print span,
+.MMM--icn_print:before {
+    content: '\e058';
+}
+
+.MMM--icn_gt span,
+.MMM--icn_gt:before {
+    content: '\e044';
+}
+
+.rtl .MMM--icn_gt span,
+.rtl .MMM--icn_gt:before {
+    content: '\e04b';
+}
+
+.MMM--icn_lt span,
+.MMM--icn_lt:before {
+    content: '\e04b';
+}
+
+.rtl .MMM--icn_lt span,
+.rtl .MMM--icn_lt:before {
+    content: '\e044';
+}
+
+.MMM--icn_breadcrumb span,
+.MMM--icn_breadcrumb:before {
+    content: '\e02f';
+    padding: 0 .5em;
+    *zoom: 1;
+}
+
+.rtl .icn_breadcrumb span,
+.rtl .icn_breadcrumb:before {
+    content: '\e04b';
+}
+
+.MMM--icn_block span,
+.MMM--icn_block:before {
+    content: '\e02e';
+}
+
+.MMM--icn_list span,
+.MMM--icn_list:before {
+    content: '\e048';
+}
+
+.MMM--icn_btt span,
+.MMM--icn_btt:before {
+    content: '\e052';
+}
+
+.MMM--icn_phone span,
+.MMM--icn_phone:before {
+    content: '\e053';
+}
+
+.MMM--icn_telephone span,
+.MMM--icn_telephone:before {
+    content: '\e912';
+}
+
+.MMM--icn_gt2 span,
+.MMM--icn_gt2:before {
+    content: '\e045';
+}
+
+/*Start Down Arrow*/
+
+.MMM--icn_down_arrow span,
+.MMM--icn_down_arrow:before {
+    content: '\e977';
+}
+
+.MMM--icn_up_arrow span,
+.MMM--icn_up_arrow:before {
+    content: '\e97c';
+}
+
+/*Finish Down Arrow*/
+
+.MMM--icn_userHollow span,
+.MMM--icn_userHollow:before {
+    content: "\e97d";
+}
+
+.MMM--icn_infoHollow span,
+.MMM--icn_infoHollow:before {
+    content: "\e97e";
+}
+
+.MMM--icn_hamburgerMenu span,
+.MMM--icn_hamburgerMenu:before {
+    content: "\e97f";
+    color: #4b4b4b;
+}
+
+.MMM--icn_lt2 span,
+.MMM--icn_lt2:before {
+    content: '\e04c';
+}
+
+.MMM--icn_circle span,
+.MMM--icn_circle:before {
+    content: '\e030';
+    font-size: 14px;
+}
+
+.MMM--icn_bullet span,
+.MMM--icn_bullet:before {
+    content: "\e030";
+}
+
+.MMM--icn_pin span,
+.MMM--icn_pin:before {
+    content: '\e054';
+}
+
+.MMM--icn_arrowHollowLeft span,
+.MMM--icn_arrowHollowLeft:before {
+    content: '\e025';
+}
+
+.MMM--icn_arrowHollowRight span,
+.MMM--icn_arrowHollowRight:before {
+    content: '\e026';
+}
+
+.MMM--icn_arrowHollowUp span,
+.MMM--icn_arrowHollowUp:before {
+    content: '\e027';
+}
+
+.MMM--icn_arrowHollowDown span,
+.MMM--icn_arrowHollowDown:before {
+    content: '\e024';
+}
+
+.MMM--icn_lock span,
+.MMM--icn_lock:before {
+    content: '\e04a';
+}
+
+.MMM--icn_calendarevent span,
+.MMM--icn_calendarevent:before {
+    content: '\e031';
+}
+
+.MMM--icn_community span,
+.MMM--icn_community:before {
+    content: '\e03c';
+}
+
+.MMM--icn_download span,
+.MMM--icn_download:before {
+    content: '\e03e';
+}
+
+.MMM--icn_ebook span,
+.MMM--icn_ebook:before {
+    content: '\e03f';
+}
+
+.MMM--icn_linkto span,
+.MMM--icn_linkto:before {
+    content: '\e047';
+}
+
+.MMM--icn_podcast span,
+.MMM--icn_podcast:before {
+    content: '\e056';
+}
+
+.MMM--icn_news span,
+.MMM--icn_news:before {
+    content: '\e050';
+}
+
+.MMM--icn_report span,
+.MMM--icn_report:before {
+    content: '\e05a';
+}
+
+.MMM--icn_shareicon span,
+.MMM--icn_shareicon:before {
+    content: '\e05d';
+}
+
+.MMM--icn_twistyAction span,
+.MMM--icn_twistyAction:before {
+    content: '\e05f';
+    font-size: 14px;
+    vertical-align: 10%;
+}
+
+.MMM--icn_chevronLeft span,
+.MMM--icn_chevronLeft:before {
+    content: '\e90c';
+}
+
+a.MMM--isActive .MMM--icn_chevronLeft span,
+a.MMM--isActive .MMM--icn_chevronLeft:before {
+    content: '\e90d';
+}
+
+.MMM--icn_chevronRight span,
+.MMM--icn_chevronRight:before {
+    content: '\e90d';
+}
+
+a.MMM--isActive .MMM--icn_chevronRight span,
+a.MMM--isActive .MMM--icn_chevronRight:before {
+    content: '\e90c';
+}
+
+.MMM--icn_chevronUp span,
+.MMM--icn_chevronUp:before {
+    content: '\e90e';
+}
+
+a.MMM--isActive .MMM--icn_chevronUp span,
+a.MMM--isActive .MMM--icn_chevronUp:before {
+    content: '\e90b';
+}
+
+.MMM--icn_chevronDown span,
+.MMM--icn_chevronDown:before {
+    content: '\e90b';
+}
+
+a.MMM--isActive .MMM--icn_chevronDown span,
+a.MMM--isActive .MMM--icn_chevronDown:before {
+    content: '\e90e';
+}
+
+.MMM--icn_alert span,
+.MMM--icn_alert:before {
+    content: '\e903';
+}
+
+.MMM--icn_alert2 span,
+.MMM--icn_alert2:before {
+    content: "\e90a";
+}
+
+.MMM--icn_localizationGlobe span,
+.MMM--icn_localizationGlobe:before {
+    content: '\e909';
+}
+
+.MMM--icn_location span,
+.MMM--icn_location:before {
+    content: '\e907';
+}
+
+.MMM--icn_route span,
+.MMM--icn_route:before {
+    content: '\e910';
+}
+
+.MMM--icn_car span,
+.MMM--icn_car:before {
+    content: '\e921';
+}
+
+.MMM--icn_filterSliders span,
+.MMM--icn_filterSliders:before {
+    content: '\e922';
+}
+
+.MMM--icn_globe span,
+.MMM--icn_globe:before {
+    content: '\e923';
+}
+
+.MMM--icn_cehours span,
+.MMM--icn_cehours:before {
+    content: '\e971';
+}
+
+.MMM--icn_ondemand span,
+.MMM--icn_ondemand:before {
+    content: '\e972';
+}
+
+.MMM--icn_webinar span,
+.MMM--icn_webinar:before {
+    content: '\e973';
+}
+
+.MMM--icn_cost span,
+.MMM--icn_cost:before {
+    content: '\e974';
+}
+
+.MMM--icn_arrowJump span,
+.MMM--icn_arrowJump:before {
+    content: '\e975';
+}
+
+.MMM--icn_curriculum span,
+.MMM--icn_curriculum:before {
+    content: '\e976';
+}
+
+.MMM--icn_ce_credits span,
+.MMM--icn_ce_credits:before {
+    content: '\e978';
+}
+
+.MMM--icn_arrowJump span,
+.MMM--icn_arrowJump:before {
+    content: '\e975';
+}
+
+.MMM--icn_curriculum span,
+.MMM--icn_curriculum:before {
+    content: '\e976';
+}
+
+.MMM--icn_ce_credits span,
+.MMM--icn_ce_credits:before {
+    content: '\e978';
+}
+
+.MMM--icn_feedback span,
+.MMM--icn_feedback:before {
+    content: '\e97b';
+}
+
+/* Start icn_checkmark_inactive */
+
+.MMM--icn_checkmark_inactive:before {
+    content: "\e970";
+    color: #ddd;
+}
+
+/* Start icn_checkmark_inactive */
+
+/*  icn_checkmark */
+
+.MMM--icn_checkmark:before {
+    content: "\e970";
+}
+
+/* End icn_checkmark */
+
+/* Start icn_checkmarkCircle */
+
+.MMM--icn_checkmarkCircle .path1:before {
+    content: "\e95d";
+    color: #231f20;
+}
+
+.MMM--icn_checkmarkCircle .path2:before {
+    content: "\e95e";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+
+.MMM--icn_checkmarkCircle .path3:before {
+    content: "\e961";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_checkmarkCircle .path4:before {
+    content: "\e968";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+
+.MMM--icn_checkmarkCircle .path5:before {
+    content: "\e96a";
+    color: #231f20;
+    margin-left: -1em;
+}
+
+/* End icn_checkmarkCircle */
+
+/* Start icn_checkmarkCircle_inactive */
+
+.MMM--icn_checkmarkCircle_inactive .path1:before {
+    content: "\e96b";
+    color: #231f20;
+}
+
+.MMM--icn_checkmarkCircle_inactive .path2:before {
+    content: "\e96c";
+    color: #ddd;
+    margin-left: -1em;
+}
+
+.MMM--icn_checkmarkCircle_inactive .path3:before {
+    content: "\e96d";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_checkmarkCircle_inactive .path4:before {
+    content: "\e96e";
+    color: #ddd;
+    margin-left: -1em;
+}
+
+.MMM--icn_checkmarkCircle_inactive .path5:before {
+    content: "\e96f";
+    color: #231f20;
+    margin-left: -1em;
+}
+
+/* End icn_checkmarkCircle_inactive */
+
+/* Start icn_confirmation */
+
+.MMM--icn_Confirmation .path1:before {
+    content: "\e904";
+    color: #018a33;
+}
+
+.MMM--icn_Confirmation .path2:before {
+    content: "\e908";
+    color: #fff;
+    margin-left: -1em;
+}
+
+/* End icn_confirmation */
+
+/* Start icn_confirmInactive */
+
+.MMM--icn_Confirm_inactive .path1:before {
+    content: "\e92a";
+    color: #ddd;
+}
+
+.MMM--icn_Confirm_inactive .path2:before {
+    content: "\e92d";
+    color: #fff;
+    margin-left: -1em;
+}
+
+/* End icn_confirmInactive */
+
+/* Start callout flag icon */
+
+.MMM--icn_callOutFlag .path1:before {
+    content: "\e032";
+    color: rgb(244, 0, 19);
+}
+
+.MMM--icn_callOutFlag .path2:before {
+    content: "\e033";
+    color: rgb(244, 0, 19);
+    margin-left: -1.0009765625em;
+}
+
+.MMM--icn_callOutFlag .path3:before {
+    content: "\e034";
+    color: rgb(244, 0, 19);
+    margin-left: -1.0009765625em;
+}
+
+.MMM--icn_callOutFlag .path4:before {
+    content: "\e035";
+    color: rgb(0, 0, 0);
+    margin-left: -1.0009765625em;
+}
+
+.MMM--icn_callOutFlag .path5:before {
+    content: "\e036";
+    color: rgb(0, 0, 0);
+    margin-left: -1.0009765625em;
+}
+
+.MMM--icn_callOutFlag .path6:before {
+    content: "\e037";
+    color: rgb(0, 0, 0);
+    margin-left: -1.0009765625em;
+}
+
+.MMM--icn_callOutFlag .path7:before {
+    content: "\e038";
+    color: rgb(0, 0, 0);
+    margin-left: -1.0009765625em;
+}
+
+/* End callout flag icon */
+
+/* Start tooltip_black icon */
+
+.MMM--icn_tooltip_black .path1:before {
+    content: '\e913';
+    color: #000;
+}
+
+.MMM--icn_tooltip_black .path2:before {
+    content: '\e914';
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_tooltip_black .path3:before {
+    content: '\e924';
+    color: #fff;
+    margin-left: -1em;
+}
+
+/* End tooltip_black icon */
+
+/* Start pin_basic icon DEPRECATED, point to pin_white styles */
+
+.MMM--icn_pin_basic .path1:before {
+    content: '\e915';
+    color: #fff;
+}
+
+.MMM--icn_pin_basic .path2:before {
+    content: '\e916';
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_basic .path3:before {
+    content: '\e917';
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_basic .path4:before {
+    content: '\e918';
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_basic icon DEPRECATED, point to pin_white styles */
+
+/* Start pin_white icon */
+
+.MMM--icn_pin_white .path1:before {
+    content: '\e915';
+    color: #fff;
+}
+
+.MMM--icn_pin_white .path2:before {
+    content: '\e916';
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_white .path3:before {
+    content: '\e917';
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_white .path4:before {
+    content: '\e918';
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_white icon */
+
+/* Start pin_gold icon DEPRECATED, point to pin_lightOrange styles */
+
+.MMM--icn_pin_gold .path1:before {
+    content: "\e945";
+    color: #faaa19;
+}
+
+.MMM--icn_pin_gold .path2:before {
+    content: "\e946";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_gold .path3:before {
+    content: "\e947";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_gold .path4:before {
+    content: "\e948";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_gold icon DEPRECATED, point to pin_lightOrange styles */
+
+/* Start pin_platinum icon DEPRECATED, point to pin_darkGrey styles */
+
+.MMM--icn_pin_platinum .path1:before {
+    content: "\e91e";
+    color: #595959;
+}
+
+.MMM--icn_pin_platinum .path2:before {
+    content: "\e965";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_platinum .path3:before {
+    content: "\e966";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_platinum .path4:before {
+    content: "\e967";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_platinum icon DEPRECATED, point to pin_darkGrey styles */
+
+/* Start pin_silver icon DEPRECATED, point to pin_lightGrey styles */
+
+.MMM--icn_pin_silver .path1:before {
+    content: "\e91f";
+    color: #d2d2d2;
+}
+
+.MMM--icn_pin_silver .path2:before {
+    content: "\e920";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_silver .path3:before {
+    content: "\e925";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_silver .path4:before {
+    content: "\e960";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_silver icon DEPRECATED, point to pin_lightGrey styles */
+
+/* Start pin_yellow icon */
+
+.MMM--icn_pin_yellow .path1:before {
+    content: '\e91d';
+    color: #fff000;
+}
+
+.MMM--icn_pin_yellow .path2:before {
+    content: '\e962';
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_yellow .path3:before {
+    content: '\e963';
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_yellow .path4:before {
+    content: '\e964';
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_yellow icon */
+
+/* Start pin_darkGrey icon */
+
+.MMM--icn_pin_darkGrey .path1:before {
+    content: "\e91e";
+    color: #595959;
+}
+
+.MMM--icn_pin_darkGrey .path2:before {
+    content: "\e965";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_darkGrey .path3:before {
+    content: "\e966";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_darkGrey .path4:before {
+    content: "\e967";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_darkGrey icon */
+
+/* Start pin_lightGrey icon */
+
+.MMM--icn_pin_lightGrey .path1:before {
+    content: "\e91f";
+    color: #d2d2d2;
+}
+
+.MMM--icn_pin_lightGrey .path2:before {
+    content: "\e920";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_lightGrey .path3:before {
+    content: "\e925";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_lightGrey .path4:before {
+    content: "\e960";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_lightGrey icon */
+
+/* Start pin_black icon */
+
+.MMM--icn_pin_black .path1:before {
+    content: "\e927";
+    color: #000;
+}
+
+.MMM--icn_pin_black .path2:before {
+    content: "\e928";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_black .path3:before {
+    content: "\e929";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_black .path4:before {
+    content: "\e92b";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_black icon */
+
+/* Start pin_blue icon */
+
+.MMM--icn_pin_blue .path1:before {
+    content: "\e92c";
+    color: #003ce6;
+}
+
+.MMM--icn_pin_blue .path2:before {
+    content: "\e92e";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_blue .path3:before {
+    content: "\e92f";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_blue .path4:before {
+    content: "\e930";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_blue icon */
+
+/* Start pin_darkBlue icon */
+
+.MMM--icn_pin_darkBlue .path1:before {
+    content: "\e931";
+    color: #1e1e96;
+}
+
+.MMM--icn_pin_darkBlue .path2:before {
+    content: "\e932";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_darkBlue .path3:before {
+    content: "\e933";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_darkBlue .path4:before {
+    content: "\e934";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_darkBlue icon */
+
+/* Start pin_green icon */
+
+.MMM--icn_pin_green .path1:before {
+    content: "\e935";
+    color: #00b432;
+}
+
+.MMM--icn_pin_green .path2:before {
+    content: "\e936";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_green .path3:before {
+    content: "\e937";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_green .path4:before {
+    content: "\e938";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_green icon */
+
+/* Start pin_lightBlue icon */
+
+.MMM--icn_pin_lightBlue .path1:before {
+    content: "\e939";
+    color: #00c8e6;
+}
+
+.MMM--icn_pin_lightBlue .path2:before {
+    content: "\e93a";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_lightBlue .path3:before {
+    content: "\e93b";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_lightBlue .path4:before {
+    content: "\e93c";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_lightBlue icon */
+
+/* Start pin_lightGreen icon */
+
+.MMM--icn_pin_lightGreen .path1:before {
+    content: "\e93d";
+    color: #aae600;
+}
+
+.MMM--icn_pin_lightGreen .path2:before {
+    content: "\e93e";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_lightGreen .path3:before {
+    content: "\e93f";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_lightGreen .path4:before {
+    content: "\e940";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_lightGreen icon */
+
+/* Start pin_mediumGrey icon */
+
+.MMM--icn_pin_mediumGrey .path1:before {
+    content: "\e941";
+    color: #a8a8a8;
+}
+
+.MMM--icn_pin_mediumGrey .path2:before {
+    content: "\e942";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_mediumGrey .path3:before {
+    content: "\e943";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_mediumGrey .path4:before {
+    content: "\e944";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_mediumGrey icon */
+
+/* Start pin_lightOrange icon */
+
+.MMM--icn_pin_lightOrange .path1:before {
+    content: "\e945";
+    color: #faaa19;
+}
+
+.MMM--icn_pin_lightOrange .path2:before {
+    content: "\e946";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_lightOrange .path3:before {
+    content: "\e947";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_lightOrange .path4:before {
+    content: "\e948";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_lightOrange icon */
+
+/* Start pin_magenta icon */
+
+.MMM--icn_pin_magenta .path1:before {
+    content: "\e949";
+    color: #dc14aa;
+}
+
+.MMM--icn_pin_magenta .path2:before {
+    content: "\e94a";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_magenta .path3:before {
+    content: "\e94b";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_magenta .path4:before {
+    content: "\e94c";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_magenta icon */
+
+/* Start pin_orange icon */
+
+.MMM--icn_pin_orange .path1:before {
+    content: "\e94d";
+    color: #f5821e;
+}
+
+.MMM--icn_pin_orange .path2:before {
+    content: "\e94e";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_orange .path3:before {
+    content: "\e94f";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_orange .path4:before {
+    content: "\e950";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_orange icon */
+
+/* Start pin_maroon icon */
+
+.MMM--icn_pin_maroon .path1:before {
+    content: "\e951";
+    color: #8c006e;
+}
+
+.MMM--icn_pin_maroon .path2:before {
+    content: "\e952";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_maroon .path3:before {
+    content: "\e953";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_maroon .path4:before {
+    content: "\e954";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_maroon icon */
+
+/* Start pin_purple icon */
+
+.MMM--icn_pin_purple .path1:before {
+    content: "\e955";
+    color: #8228b4;
+}
+
+.MMM--icn_pin_purple .path2:before {
+    content: "\e956";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_purple .path3:before {
+    content: "\e957";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_purple .path4:before {
+    content: "\e958";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_purple icon */
+
+/* Start pin_red icon */
+
+.MMM--icn_pin_red .path1:before {
+    content: "\e959";
+    color: #f00;
+}
+
+.MMM--icn_pin_red .path2:before {
+    content: "\e95a";
+    color: #fff;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_red .path3:before {
+    content: "\e95b";
+    color: #000;
+    margin-left: -1em;
+}
+
+.MMM--icn_pin_red .path4:before {
+    content: "\e95c";
+    color: #000;
+    margin-left: -1em;
+}
+
+/* End pin_red icon */
+
+/* ------------------------------------
+Docuemnt Icons
+--------------------------------------*/
+
+/* Excel Document */
+
+.MMM--icn_excel .path1:before {
+    content: "\e000";
+    color: rgb(24, 178, 75);
+}
+
+.MMM--icn_excel .path2:before {
+    content: "\e001";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_excel .path3:before {
+    content: "\e002";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_excel .path4:before {
+    content: "\e003";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_excel .path5:before {
+    content: "\e004";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_excel .path6:before {
+    content: "\e005";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_excel .path7:before {
+    content: "\e006";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+/* PDF Document */
+
+.MMM--icn_pdf .path1:before {
+    content: "\e007";
+    color: rgb(237, 28, 36);
+}
+
+.MMM--icn_pdf .path2:before {
+    content: "\e008";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_pdf .path3:before {
+    content: "\e009";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icn_pdf .path4:before {
+    content: "\e00a";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icn_pdf .path5:before {
+    content: "\e00b";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icn_pdf .path6:before {
+    content: "\e00c";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icn_pdf .path7:before {
+    content: "\e00d";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icn_pdf .path8:before {
+    content: "\e00e";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icn_pdf .path9:before {
+    content: "\e00f";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icn_pdf .path10:before {
+    content: "\e010";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_pdf .path11:before {
+    content: "\e011";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+/* Word Document */
+
+.MMM--icn_word .path1:before {
+    content: "\e01c";
+    color: rgb(40, 194, 225);
+}
+
+.MMM--icn_word .path2:before {
+    content: "\e01d";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_word .path3:before {
+    content: "\e01e";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_word .path4:before {
+    content: "\e01f";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_word .path5:before {
+    content: "\e020";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_word .path6:before {
+    content: "\e021";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_word .path7:before {
+    content: "\e022";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_word .path8:before {
+    content: "\e023";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+/* Word Document */
+
+.MMM--docIcn_word .path1:before {
+    content: "\e01c";
+    color: rgb(40, 194, 225);
+}
+
+.MMM--docIcn_word .path2:before {
+    content: "\e01d";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--docIcn_word .path3:before {
+    content: "\e01e";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--docIcn_word .path4:before {
+    content: "\e01f";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--docIcn_word .path5:before {
+    content: "\e020";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--docIcn_word .path6:before {
+    content: "\e021";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--docIcn_word .path7:before {
+    content: "\e022";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--docIcn_word .path8:before {
+    content: "\e023";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+/*PPT Document */
+
+.MMM--icn_ppt .path1:before {
+    content: "\e012";
+    color: rgb(248, 169, 27);
+}
+
+.MMM--icn_ppt .path2:before {
+    content: "\e013";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_ppt .path3:before {
+    content: "\e014";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_ppt .path4:before {
+    content: "\e015";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_ppt .path5:before {
+    content: "\e016";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_ppt .path6:before {
+    content: "\e017";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_ppt .path7:before {
+    content: "\e018";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_ppt .path8:before {
+    content: "\e019";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_ppt .path9:before {
+    content: "\e01a";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+.MMM--icn_ppt .path10:before {
+    content: "\e01b";
+    color: rgb(0, 0, 0);
+    margin-left: -1em;
+}
+
+/* ----------------- end document icons */
+
+.MMM--resourcesList .MMM--isActive .MMM--icn_twistyAction:before {
+    content: '\e045';
+}
+
+.MMM--icn_twistyAction span {
+    font-size: 10px;
+    vertical-align: 6px;
+    padding-right: 5px;
+}
+
+.rtl .MMM--icn_twistyAction span {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.MMM--carouselTrigger>.MMM--icn {
+    padding: 0;
+}
+
+.MMM--icn_carouselTrigger:before {
+    display: block;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.MMM--icn_heroCarouselTrigger {
+    //display: none;
+}
+
+/* icn plus to minus changes */
+
+.MMM--addInfoBlockTrigger.MMM--isActive .MMM--icn_plus:before,
+.MMM--addInfoBlockTrigger.MMM--isActive .MMM--icn_plus span,
+.MMM--disclaimerTrigger.MMM--isActive .MMM--icn_plus:before,
+.MMM--disclaimerTrigger.MMM--isActive .MMM--icn_plus span {
+    content: '\e04f';
+}
+
+/* icn active state changes */
+
+.MMM--navItemList-hasSubNav_isOpen .MMM--drawerNavItem .MMM--icn_profile:before,
+.MMM--navItemList-hasSubNav_isOpen .MMM--drawerNavItem .MMM--icn_cart:before {
+    color: #444444;
+}
+
+.MMM--closeTrigger {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background: #000000;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.MMM--closeTrigger:hover {
+    color: #ffffff;
+    background: #ff0000;
+}
+
+/* ---------------------------------------------------------------------
+ Social Icons
+------------------------------------------------------------------------ */
+
+.MMM--socialIcn {
+    display: inline-block;
+    *display: inline;
+    /* ie7 support for inline-block */
+    *zoom: 1;
+    /* ie7 support for inline-block */
+    speak: none;
+    font-family: '3MThemeIconFont';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.MMM--socialIcn span {
+    font-family: '3MThemeIconFont';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+.MMM--icn_blogger:before {
+    content: "\e061";
+}
+
+.MMM--socialIcn_blogger:before {
+    content: "\e061";
+}
+
+.MMM--icn_facebook:before {
+    content: "\e062";
+}
+
+.MMM--socialIcn_facebook:before {
+    content: "\e062";
+}
+
+.MMM--icn_fbmessenger:before {
+    content: "\e90f";
+}
+
+.MMM--socialIcn_fbmessenger:before {
+    content: "\e90f";
+}
+
+.MMM--icn_flickr:before {
+    content: "\e063";
+}
+
+.MMM--socialIcn_flickr:before {
+    content: "\e063";
+}
+
+.MMM--icn_google:before {
+    content: "\e064";
+}
+
+.MMM--socialIcn_googleplus:before {
+    content: "\e064";
+}
+
+.MMM--icn_instagram:before {
+    content: "\e065";
+}
+
+.MMM--socialIcn_instagram:before {
+    content: "\e065";
+}
+
+.MMM--icn_kakaosocial:before {
+    content: "\e919";
+}
+
+.MMM--socialIcn_kakaosocial:before {
+    content: "\e919";
+}
+
+.MMM--icn_kakaostory:before {
+    content: "\e91a";
+}
+
+.MMM--socialIcn_kakaostory:before {
+    content: "\e91a";
+}
+
+.MMM--icn_line:before {
+    content: "\e91b";
+}
+
+.MMM--socialIcn_line:before {
+    content: "\e91b";
+}
+
+.MMM--icn_linkedin:before {
+    content: "\e066";
+}
+
+.MMM--socialIcn_linkedin:before {
+    content: "\e066";
+}
+
+.MMM--icn_mail:before {
+    content: "\e926";
+}
+
+.MMM--socialIcn_mail:before {
+    content: "\e926";
+}
+
+.MMM--icn_socialIcn_ok:before {
+    content: "\e900";
+}
+
+.MMM--socialIcn_ok:before {
+    content: "\e900";
+}
+
+.MMM--icn_pinterest:before {
+    content: "\e067";
+}
+
+.MMM--socialIcn_pinterest:before {
+    content: "\e067";
+}
+
+.MMM--socialIcn_quora:before {
+    content: "\e068";
+}
+
+.MMM--icn_quora:before {
+    content: "\e068";
+}
+
+/* // start reddit */
+
+.MMM--icon_reddit .path1:before {
+    content: "\e069";
+    color: rgb(1, 1, 1);
+}
+
+.MMM--icon_reddit .path2:before {
+    content: "\e06a";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icon_reddit .path3:before {
+    content: "\e06b";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icon_reddit .path4:before {
+    content: "\e06c";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icon_reddit .path5:before {
+    content: "\e06d";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icon_reddit .path6:before {
+    content: "\e06e";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icon_reddit .path7:before {
+    content: "\e06f";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icon_reddit .path8:before {
+    content: "\e070";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icon_reddit .path9:before {
+    content: "\e071";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+/*-------------- socialIcn Reddit --------------------- */
+
+.MMM--socialIcn_reddit .path1:before {
+    content: "\e069";
+    color: rgb(1, 1, 1);
+}
+
+.MMM--socialIcn_reddit .path2:before {
+    content: "\e06a";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--socialIcn_reddit .path3:before {
+    content: "\e06b";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--socialIcn_reddit .path4:before {
+    content: "\e06c";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--socialIcn_reddit .path5:before {
+    content: "\e06d";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--socialIcn_reddit .path6:before {
+    content: "\e06e";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--socialIcn_reddit .path7:before {
+    content: "\e06f";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--socialIcn_reddit .path8:before {
+    content: "\e070";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--socialIcn_reddit .path9:before {
+    content: "\e071";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icn_reddit1:before,
+.MMM--socialIcn_reddit1:before {
+    content: "\e905";
+}
+
+/* ///// end reddit */
+
+/* //start renren */
+
+.MMM--icon_renren .path1:before {
+    content: "\e072";
+    color: rgb(1, 1, 1);
+}
+
+.MMM--icon_renren .path2:before {
+    content: "\e073";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icon_renren .path3:before {
+    content: "\e074";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+/* -------------- socialIcn RenRen ------------- */
+
+.MMM--socialIcn_renren .path1:before {
+    content: "\e072";
+    color: rgb(1, 1, 1);
+}
+
+.MMM--socialIcn_renren .path2:before {
+    content: "\e073";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--socialIcn_renren .path3:before {
+    content: "\e074";
+    color: rgb(35, 31, 32);
+    margin-left: -1em;
+}
+
+.MMM--icn_renren1:before,
+.MMM--socialIcn_renren1:before {
+    content: "\e95f";
+}
+
+/* ///// end renren */
+
+/* -------------- socialIcn Snapchat ------------- */
+
+.MMM--icn_snapchat:before,
+.MMM--socialIcn_snapchat:before {
+    content: "\e969";
+}
+
+/* ///// end Snapchat */
+
+.MMM--icn_rss:before {
+    content: "\e075";
+}
+
+.MMM--socialIcn_rss:before {
+    content: "\e075";
+}
+
+.MMM--icn_slideshow:before {
+    content: "\e076";
+}
+
+.MMM--socialIcn_slideshare:before {
+    content: "\e076";
+}
+
+.MMM--icn_tudou:before {
+    content: "\e077";
+}
+
+.MMM--socialIcn_tudou:before {
+    content: "\e077";
+}
+
+.MMM--icn_tumblr:before {
+    content: "\e078";
+}
+
+.MMM--socialIcn_tumblr:before {
+    content: "\e078";
+}
+
+.MMM--icn_twitter:before {
+    content: "\e079";
+}
+
+.MMM--socialIcn_twitter:before {
+    content: "\e079";
+}
+
+.MMM--icn_viadeo:before {
+    content: "\e07a";
+}
+
+.MMM--socialIcn_viadeo:before {
+    content: "\e07a";
+}
+
+.MMM--icn_vk:before {
+    content: "\e901";
+}
+
+.MMM--socialIcn_vk:before {
+    content: "\e901";
+}
+
+.MMM--icn_weibo:before {
+    content: "\e07b";
+}
+
+.MMM--socialIcn_weibo:before {
+    content: "\e07b";
+}
+
+.MMM--icn_whatsapp:before {
+    content: "\e91c";
+}
+
+.MMM--socialIcn_whatsapp:before {
+    content: "\e91c";
+}
+
+.MMM--icn_xing:before {
+    content: "\e07c";
+}
+
+.MMM--socialIcn_xing:before {
+    content: "\e07c";
+}
+
+.MMM--icn_youtube:before {
+    content: "\e07d";
+}
+
+.MMM--socialIcn_youtube:before {
+    content: "\e07d";
+}
+
+.MMM--icn_wordpress:before {
+    content: "\e07e";
+}
+
+.MMM--socialIcn_wordpress:before {
+    content: "\e07e";
+}
+
+/* ---------------------------------------------------------------------
+ Icon Mix-Ins Styles
+------------------------------------------------------------------------ */
+
+/*Colors*/
+
+.mix-MMM--icn_dark,
+.mix-MMM--icn_dark:before {
+    color: #000000;
+}
+
+.mix-MMM--icn_grey,
+.mix-MMM--icn_grey:before {
+    color: #959595;
+}
+
+.mix-MMM--icn_red,
+.mix-MMM--icn_red:before {
+    color: #ff0000;
+}
+
+.mix-MMM--icn_pink,
+.mix-MMM--icn_pink:before {
+    color: #ffe5e5;
+}
+
+.mix-MMM--icn_psTheme {
+    color: #ffffff;
+}
+
+/*Sizes */
+
+.mix-MMM--icn_sm span,
+.mix-MMM--icn_sm:before {
+    font-size: 10px;
+}
+
+.mix-MMM--icn_md span,
+.mix-MMM--icn_md:before {
+    font-size: 14px;
+}
+
+.mix-MMM--icn_lrg span,
+.mix-MMM--icn_lrg:before {
+    font-size: 24px;
+}
+
+/*Spacers*/
+
+.mix-MMM--icn_leftSpace {
+    margin-left: 5px;
+}
+
+.rtl .mix-MMM--icn_leftSpace {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.mix-MMM--icn_rightSpace {
+    margin-right: 5px;
+}
+
+.rtl .mix-MMM--icn_rightSpace {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.mix-MMM--icn_noSpace:before {
+    padding: 0;
+}
+
+/*Vertical Alignments */
+
+.mix-MMM--icn_subSm {
+    vertical-align: -2px;
+}
+
+.mix-MMM--icn_subMd {
+    vertical-align: -4px;
+}
+
+.mix-MMM--icn_supSm {
+    vertical-align: 2px;
+}
+
+.mix-MMM--icn_supMd {
+    vertical-align: 4px;
+}
+
+/* ---------------------------------------------------------------------
+ Document Icon Styles
+------------------------------------------------------------------------ */
+
+.MMM--docIcn {
+    display: inline-block;
+    *display: inline;
+    /* ie7 support for inline-block */
+    *zoom: 1;
+    /* ie7 support for inline-block */
+    background: url("") no-repeat;
+    height: 16px;
+    width: 16px;
+    vertical-align: -2px;
+}
+
+.MMM--docIcn_pdf {
+    background-position: 0 0;
+}
+
+.MMM--docIcn_pp {
+    background-position: -16px 0
+}
+
+.MMM--docIcn_excel {
+    background-position: -32px 0;
+}
+
+.MMM--docIcn_word {
+    background-position: -48px 0;
+}
+
+/* SERP Resources Library Icons */
+
+.MMM--resourceIcon {
+    background: url("") no-repeat 0 0;
+    width: 50px;
+    height: 64px;
+}
+
+.MMM--resourceIcon.icn--image {
+    background-position: 0 -64px;
+}
+
+.MMM--resourceIcon.icn--video {
+    background-position: 0 -128px;
+}
+
+/* ---------------------------------------------------------------------
+ Social Icon Styles
+------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------
+ Call Out Flag Icon Styles
+------------------------------------------------------------------------ */
+
+.MMM--callOutFlag {
+    position: absolute;
+    top: -15px;
+    right: -1px;
+    z-index: 10;
+    font-weight: bold;
+    font-size: 10px;
+    color: #ff0000;
+}
+
+.rtl .MMM--callOutFlag {
+    right: auto;
+    left: -1px;
+}
+
+.MMM--callOutFlag:after {
+    content: '';
+    display: block;
+    height: 38px;
+    width: 20px;
+    position: absolute;
+    top: 14px;
+    background: transparent url("") 0 0 no-repeat;
+}
+
+/* -------------------------------------------------------------------
+STYLES with Icons
+---------------------------------------------------------------------- */
+
+.MMM--hdg_btnMobile_closed:before {
+    font-family: "3MThemeIconFont";
+    content: '\e055';
+    color: #030303;
+}
+
+.MMM--hdg_btnMobile:before {
+    content: '\e055';
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 17px;
+    font-family: "3MThemeIconFont";
+}
+
+/*---------------------------------------
+     tooltip responsive font styles
+----------------------------------------*/
+
+@media screen and (min-width: 1px) {
+    .MMM--icn_tooltip {
+        font-size: 18px;
+    }
+    .MMM--icn_tooltip span,
+    .MMM--icn_tooltip:before {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .MMM--icn_tooltip {
+        font-size: 14px;
+    }
+    .MMM--icn_tooltip span,
+    .MMM--icn_tooltip:before {
+        font-size: 14px;
+    }
+}
+
+/*
+    Pause Icon
+*/
+.MMM--icn_pause span,
+.MMM--icn_pause:before  {
+    content: '\e979';
+}
+
+/*
+    Empty Circle Icon
+*/
+.MMM--icn_emptyCircle span,
+.MMM--icn_emptyCircle:before  {
+    content: '\e97a';
+}

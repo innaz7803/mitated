@@ -1,0 +1,99 @@
+domReady.smartwtb = function() {
+  if (document.location.search.indexOf('rt=rud') > -1) {  
+    //Insert button text
+    $(".SNAPS--whereToBuybtn .SNAPS--activeBtn").text(getLocalizedBuyNowLabel());
+    setTimeout(dpr_data, 5000);
+    setTimeout(DPR, 5000);
+    loadSelector();
+    setTimeout(ResultProducts, 5000);
+
+      if($('#children_count').attr('content') > 1){
+        EscondeMainButtonDpr();
+      }
+
+  }
+
+}
+var ResultProducts = function() {
+  $( ".SNAPS--allModelsTotCount.js-availblCount" ).click(function() {
+    console.log("rodando click...");
+    dpr_data(); 
+  });
+}
+
+var loadSelector  = function() {
+  $( ".js-loadRefinement" ).change(function() {
+    $(".SNAPS--whereToBuybtn").hide();
+    console.log("rodando load...");
+    LoadDois();
+    setTimeout(DPR, 5000);
+    setTimeout(DPR, 8000);
+    setTimeout(dpr_data, 5000);
+    setTimeout(LoadDois, 5000);
+  }); 
+}
+
+var dpr_data = function(){
+  console.log("Rodando dpr_data...");
+  if($('#children_count').attr('content') > 1){
+    console.log("Rodando children_count...");
+    $( ".js-row-results" ).each(function( index ) { 
+      console.log("Rodando js-row-results...");
+      var i;
+      i = index + 1;
+      $('ul .js-row-results:nth-child('+i+') .SNAPS--AllModel_wtb_section .SNAPS--wtb_section span.SNAPS--options_more:first-child a[href*="wtb=CC"]').text(getLocalizedBuyNowLabel());
+      $('ul .js-row-results:nth-child('+i+') .SNAPS--AllModel_wtb_section .SNAPS--wtb_section span.SNAPS--options_more:first-child .SNAPS--childNode').addClass('SNAPS--activeBtn');
+    });
+  }
+}
+
+var DPR = function() {
+  console.log("Rodando DPR");
+  $(".SNAPS--whereToBuybtn").hide();
+  $(".SNAPS--whereToBuybtn .SNAPS--activeBtn").text(getLocalizedBuyNowLabel());
+  $(".SNAPS--whereToBuybtn").css('visibility','visible');
+  $(".SNAPS--whereToBuybtn").show();
+  setTimeout(LoadDois, 5000);
+  LoadDois();
+} 
+
+
+var LoadDois = function() {
+  $( ".SNAPS--pdpBreadboxBtn" ).click(function() {
+    console.log("fechar...");
+    setTimeout(dpr_data, 5000);
+    setTimeout(ResultProducts, 5000);
+  });
+}
+
+//Trabslation of text button
+function getLocalizedBuyNowLabel() {  
+  if ($('#contentLangauge').attr('content').substring(0,2) == "es") {
+    return "Compre Ahora";
+  } else {
+    return "Compre Agora";
+  }
+}
+
+var EscondeMainButtonDpr = function () {
+    $('.wtbs.wt-link').each(function(i, obj) {
+        //console.log("I: " + i + " Obj " + obj + " This: " + this);
+        //console.log(this.className);
+        if (this.className.indexOf("SNAPS--activeLink") > -1 ){
+            // this.attr("id", "oloco");
+            //console.log(i + " " + this);
+            //Esconde Botão do Onde Comprar
+        var escondeOndeComprar = document.querySelector(".SNAPS--activeLink");
+        escondeOndeComprar.classList.add("MMM--isVisuallyHidden");  
+
+        }else if (this.className.indexOf("SNAPS--activeBtn") > -1) {
+        
+        //Esconde Botão do CompreAgora  
+        var escondeCompreAgora = document.querySelector(".SNAPS--activeBtn");
+        escondeCompreAgora.classList.add("MMM--isVisuallyHidden");  
+        
+        }else{
+            console.log("não tem wtb");
+        }
+    });
+}

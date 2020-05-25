@@ -1,0 +1,8 @@
+.SNAPS--AllModel_wtb_section .SNAPS--wtb_section span.SNAPS--options_more .SNAPS--childNode{font-size: small; }
+.SNAPS--AllModel_wtb_section .SNAPS--wtb_section span.SNAPS--options_more:first-child .SNAPS--childNode, .SNAPS--AllModel_wtb_section span.SNAPS--top_button .SNAPS--childNode{padding: 2px 8px 0px !important;}
+.SNAPS--AllModel_wtb_section .SNAPS--wtb_section span.SNAPS--options_more .SNAPS--activeBtn{
+width: auto;
+color: #fff !important;
+padding: 5px;
+background-color: red;
+}
